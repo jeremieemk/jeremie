@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .main-container {
   padding: 0rem 4rem;
   color: #262523;
@@ -33,4 +32,15 @@
 
 .name:hover > .avatar {
   opacity: 1;
+}
+
+@media (max-width: 768px), (max-height: 700px) {
+  .main-container {
+    padding: 2rem;
+    font-size: 2rem;
+    height: 100%;
+  }
+  .name:hover > .avatar {
+    opacity: 0;
+  }
 }

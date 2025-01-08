@@ -13,7 +13,13 @@ export default function Home() {
         Bonjour 👋, I&apos;m{" "}
         <span className="border-b-black border-b-2 link name relative">
           Jérémie.
-          <Image src="/avatar.png" alt="img/avatar" className="avatar" width={259} height={365}  />
+          <Image
+            src="/avatar.png"
+            alt="img/avatar"
+            className="avatar"
+            width={259}
+            height={365}
+          />
         </span>
       </p>
       <p>
@@ -33,13 +39,7 @@ export default function Home() {
         Originally from France, I managed to live in 6 countries and 15 cities
         without losing my headphones.
       </p>
-      <div className="flex gap-4">
-        <a href="">
-          <Button>
-            <EnvelopeIcon className="size-6 mr-2" />
-            Get in touch
-          </Button>
-        </a>
+      <div className="flex flex-col md:flex-row gap-4">
         <a href="">
           <Button>
             <PencilIcon className="size-6 mr-2" />
@@ -50,6 +50,12 @@ export default function Home() {
           <Button>
             <SpeakerWaveIcon className="size-6 mr-2" />
             Music
+          </Button>
+        </a>
+        <a href="">
+          <Button>
+            <EnvelopeIcon className="size-6 mr-2" />
+            Get in touch
           </Button>
         </a>
       </div>
