@@ -28,8 +28,11 @@ export default function Home() {
           <span className="link hover:text-[#d754ae]">RadioKing</span>
         </a>
         , sounds into songs as{" "}
-        <span className="link hover:text-[#5e9450]">iZem</span>, and cultural
-        chaos into collaborations at{" "}
+        <a href="https://izem.me/" target="_blank">
+          {" "}
+          <span className="link hover:text-[#5e9450]">iZem</span>
+        </a>
+        , and cultural chaos into collaborations at{" "}
         <a href="https://www.elis-records.com/" target="_blank">
           <span className="link hover:text-[#006fc5]">Elis Records</span>.
         </a>
@@ -40,19 +43,22 @@ export default function Home() {
         without losing my headphones.
       </p>
       <div className="flex flex-col md:flex-row gap-4">
-        <a href="">
+        <a href="https://izem.me/" target="_blank">
           <Button>
             <PencilIcon className="size-6 mr-2" />
             Blog
           </Button>
         </a>
-        <a href="">
+        <a
+          href="https://open.spotify.com/playlist/4FX7cXqldv8Si32sjK5PQP?si=3bb140fdc4674b1f"
+          target="_blank"
+        >
           <Button>
             <SpeakerWaveIcon className="size-6 mr-2" />
             Music
           </Button>
         </a>
-        <a href="">
+        <a href="mailto:jeremieemk@gmail.com">
           <Button>
             <EnvelopeIcon className="size-6 mr-2" />
             Get in touch
