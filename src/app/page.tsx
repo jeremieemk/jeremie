@@ -28,7 +28,7 @@ export default function Home() {
           <span className="link hover:text-[#d754ae]">RadioKing</span>
         </a>
         , sounds into songs as{" "}
-        <a href="https://izem.me/" target="_blank">
+        <a href="https://open.spotify.com/playlist/4FX7cXqldv8Si32sjK5PQP?si=75194174ef844459" target="_blank">
           {" "}
           <span className="link hover:text-[#5e9450]">iZem</span>
         </a>
