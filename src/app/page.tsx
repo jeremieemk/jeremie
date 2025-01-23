@@ -37,7 +37,7 @@ export default function Home() {
           <span className="link hover:text-[#006fc5]">Elis Records</span>.
         </a>
       </p>
-      <p>I geek out on all things Ableton, Javascript and Caetano Veloso.</p>
+      <p>I geek out on all things Javascript, Ableton and Caetano Veloso.</p>
       <p>
         Originally from France, I managed to live in 6 countries and 15 cities
         without losing my headphones.
